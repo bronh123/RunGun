@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3265263794545398657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2876070486390163221}
+  - component: {fileID: 2547940350500920142}
+  m_Layer: 0
+  m_Name: EnemyManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2876070486390163221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265263794545398657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2547940350500920142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3265263794545398657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31d58e4a1d2c50439f38116c89b0089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1665190061075893145, guid: cf4fab5ad896baa4cbd440f0e501a7c7, type: 3}
+  flyingEnemyPrefab: {fileID: 1011043315235755845, guid: b684a5c6d86d8af4fb957e50468a594f, type: 3}
+  elitePrefab: {fileID: 1966054293438974046, guid: 05e822c4e1f68fd47a26f81f954eef6a, type: 3}
+  player: {fileID: 0}
+  playerStats: {fileID: 0}
+  waypointHolder: {fileID: 0}
+  baseEnemiesPerWave: 10
+  flyingEnemyRatio: 0.2
+  eliteSpawningInterval: 5
+  baseHealthMultiplierIncreasePerWave: 0.5
+  baseDamageMultiplierIncreasePerWave: 0.2
+  baseSpeedMultiplierIncreasePerWave: 0.1
